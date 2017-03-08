@@ -1,37 +1,39 @@
 main {
-	padding-top: 100px; 
 	font-family: Roboto, sans-serif;
 }
 header {
 	background-color: #ffdb58;
-	height: 80px;
-	text-align: left;
-	padding-left: 10px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0; 
+	margin-bottom: 	40px;
 }
 .title {
-	position: relative;
-	top: -10px;
+	line-height: 1;
+	margin-bottom: 0;
+	font-size: 	20px;
+	font-weight: 800;
 }
 .subtitle {
-	position: relative;
-	top: -20px
+	margin-top: 0.5em;
+	font-size: 	12px;
 }
-.box {
+.card {
 	border: 1px solid #d3d3d3;
-	margin-top: 100px;
 	display: inline-block;
+	margin-bottom: 20px;
 }
-.box img {
-	height: 200px;
-	text-align: center;
+ .card img {
+	height: 250px;
+	text-align: center; 
 }
-.box-image {
+.card-image {
 	width: 100%;
 }
-h4 {
-	margin-top: 10px; 
+.char {
+	margin-top: 10px;
+	font-weight: 800;
+	margin-left: 20px;
+}	 
+.descrip {
+	margin-left: 20px;
+}
+
 	
